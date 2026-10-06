@@ -1,0 +1,94 @@
+{
+  "identifier" : "pawmoir-storekit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "pawmoir-premium",
+      "localizations" : [
+
+      ],
+      "name" : "Pawmoir Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "monthly",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "monthly-trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited pets, captions, and 15% off prints.",
+              "displayName" : "Pawmoir Premium Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.pawmoir.app.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "pawmoir-premium",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "34.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "yearly",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "yearly-trial",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited pets, captions, and 15% off prints.",
+              "displayName" : "Pawmoir Premium Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.pawmoir.app.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yearly",
+          "subscriptionGroupID" : "pawmoir-premium",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
